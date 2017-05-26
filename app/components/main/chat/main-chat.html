@@ -1,0 +1,46 @@
+<div class="container chat-container">
+    <audio>
+        <source src="braked.mp3" type="audio/mpeg">
+    </audio>
+    <div class="row">
+        <div class="col-md-12 ">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <div class="messages-container">
+                        <div ng-repeat="data in $ctrl.messages" ng-init="$ctrl.toScroll()">
+                            <div class="message-block">
+                                    <p ng-class="{
+                                        'text-right': data.user === $ctrl.userName,
+                                        'p-r-30': data.user === $ctrl.userName,
+                                        'p-l-30': data.user !== $ctrl.userName
+                                     }" ng-bind="data.user">
+                                    </p>
+                                    <p class="user-message-content" ng-bind="data.message"></p>
+                            </div>
+                            <div class="time-block"
+                                 ng-class="{
+                                    'text-left': data.user === $ctrl.userName,
+                                    'text-right': data.user !== $ctrl.userName
+                                 }">
+                                <span ng-bind="data.date | date: 'h:mm a'"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <form class="" role="form" ng-submit="$ctrl.onSendMessage()">
+                    <div class="col-xs-6 col-xs-offset-2 form-group">
+                        <textarea autofocus class="message-content form-control"
+                                  ng-model="$ctrl.message"
+                                  rows="1">
+                        </textarea>
+                    </div>
+                    <div class="col-xs-2 form-group text-center">
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

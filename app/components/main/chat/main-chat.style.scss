@@ -1,0 +1,36 @@
+.chat-container {
+  .messages-container {
+    overflow-y: auto;
+    width: 100%;
+    height: 70vh;
+    padding-top: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+
+    .p-r-30 {
+      padding-right: 30px;
+    }
+
+    .p-l-30 {
+      padding-left: 30px;
+    }
+
+    .message-block {
+      padding: 5px;
+      margin: 10px;
+      background-color: #fbf9fa;
+
+      .user-message-content {
+        margin: 5px 10px;
+      }
+    }
+
+    .time-block {
+      padding: 0 25px;
+    }
+  }
+
+  .message-content {
+    resize: none;
+  }
+}

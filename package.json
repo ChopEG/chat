@@ -1,0 +1,44 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-cookies": "^1.6.4",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "@uirouter/angularjs": "*",
+    "angular": "^1.6.4",
+    "angular-sanitize": "^1.6.4",
+    "angularjs-toaster": "*",
+    "axios": "^0.15.3",
+    "bootstrap-sass": "^3.3.7",
+    "cross-env": "^3.2.3",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.4.5",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "ng-annotate-webpack-plugin": "*",
+    "node-sass": "^4.5.3",
+    "restangular": "*",
+    "sass-loader": "^6.0.5",
+    "toastr": "*",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1"
+  }
+}

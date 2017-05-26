@@ -1,0 +1,102 @@
+[
+  {
+    "user": "John Doe",
+    "message": "Hey there",
+    "date": ""
+  },
+  {
+    "user": "Jane Doe",
+    "message": "Hello there",
+    "date": ""
+  },
+  {
+    "user": "Mike Doe",
+    "message": "How are you?",
+    "date": ""
+  },
+  {
+    "user": "Bill Doe",
+    "message": "Hello Everyone",
+    "date": ""
+  },
+  {
+    "user": "Sam Doe",
+    "message": "Who is it?",
+    "date": ""
+  },
+  {
+    "user": "Brandon Doe",
+    "message": "Hey guys",
+    "date": ""
+  },
+  {
+    "user": "Helen Doe",
+    "message": "What we gonna do today?",
+    "date": ""
+  },
+  {
+    "user": "Samuel Doe",
+    "message": "I am busy today",
+    "date": ""
+  },
+  {
+    "user": "Ben Doe",
+    "message": "I am available",
+    "date": ""
+  },
+  {
+    "user": "Jack Doe",
+    "message": "Mike, are you there",
+    "date": ""
+  },
+  {
+    "user": "Kim Doe",
+    "message": "Hello there, how is it going?",
+    "date": ""
+  },
+  {
+    "user": "Nicole Doe",
+    "message": "Is Jack there?",
+    "date": ""
+  },
+  {
+    "user": "Frank Doe",
+    "message": "Who is Nicole?",
+    "date": ""
+  },
+  {
+    "user": "Lloyd Doe",
+    "message": "Nicole is my neighbor",
+    "date": ""
+  },
+  {
+    "user": "Nick Doe",
+    "message": "Were are you from?",
+    "date": ""
+  },
+  {
+    "user": "Dwayne",
+    "message": "Hey guys",
+    "date": ""
+  },
+  {
+    "user": "Tanya",
+    "message": "Who is there?",
+    "date": ""
+  },
+  {
+    "user": "Samuel Mender",
+    "message": "Yes, I am",
+    "date": ""
+  },
+  {
+    "user": "Ben",
+    "message": "Nope",
+    "date": ""
+  },
+  {
+    "user": "Jackie",
+    "message": "Nick, how are you?",
+    "date": ""
+  }
+]
